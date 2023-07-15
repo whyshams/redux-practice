@@ -1,4 +1,4 @@
-import PostsList from "./features/posts/postsList"
+import PostsList from "./features/posts/PostList"
 import AddPostForm from "./features/posts/AddPostForm"
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <>
      
       <AddPostForm/>
-       <PostsList />
- 
+       
+      <PostsList />
     </>
   )
 }

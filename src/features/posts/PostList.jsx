@@ -3,7 +3,7 @@ import { selectAllPosts } from "./postsSlice";
 
 
 
-const postsList = () => {
+const PostsList = () => {
     const posts = useSelector(selectAllPosts)
   
     const renderPost = posts.map((post) => (
@@ -18,4 +18,4 @@ const postsList = () => {
   )
 }
 
-export default postsList
+export default PostsList

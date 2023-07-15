@@ -6,7 +6,8 @@ import postsReducer from "../features/posts/postsSlice"
 const store = configureStore({
     reducer :{
         posts : postsReducer ,
-    }
+    },
+    devTools: true, 
 })
 
 export default store

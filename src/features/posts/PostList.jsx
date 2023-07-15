@@ -14,7 +14,7 @@ const PostsList = () => {
     ))
 
   return (
-    <div className="text-center">{renderPost}</div>
+    <div className="">{renderPost}</div>
   )
 }
 
